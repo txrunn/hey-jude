@@ -88,7 +88,6 @@ func main() {
 	slurmScript := "generated_slurm_script.slurm"
 
 	// Upload the R and SLURM scripts to the HPC system
-	// Upload the R and SLURM scripts to the HPC system
 	err = uploadFile(client, rScript, rScript)
 	if err != nil {
 		fmt.Printf("Failed to upload R script: %s\n", err)
